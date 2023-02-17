@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, #e6e9f0 0%, #d5d9de 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+.hum{
+    /* font-family: 'Waiting for the Sunrise', cursive;  */
+    font-family: 'Segoe UI', sans-serif;
+    font-size:30px; 
+    margin: 10px 50px; 
+    letter-spacing: 2px; 
+    position: relative;
+    top: 2px;   
+    left: 40px;
+    font-weight: 500;
+} 
+/* .line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    /* text-align: center; */
+    /* white-space: nowrap;
+    overflow: hidden; 
+    transform: translateY(-50%);    
+}
+
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 90em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}  */
+
+nav{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 12rem;
+}
+a{
+    text-decoration: none;
+    font-family: 'Segoe Ui';
+    color: black;
+    border: 1px dashed black;
+    padding: 2px 20px;
+}
+a:hover{
+    border: 1px solid black;
+}
+a:active{
+    border: none;
+    background-color: rgb(42, 42, 42);
+    color: white;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+}
+nav ul li{
+    display: inline;
+}
+.hero{
+    padding: 5rem 14rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.hero span, p{
+    font-family: 'Dubai';
+    font-size: 4rem;
+    position: relative;
+    top: 17px;
+    left: -126px;
+}
+.hero p{
+    margin-top: -1.5rem;
+}
+.hero b{
+    filter: drop-shadow(2px 2px 18px black);
+    color: #2c2c2c;
+}
+.hero img{
+    width: 22rem;
+    filter: drop-shadow(4px 0px 25px black);
+}
+.abt{
+    position: relative;
+    top: -75px;
+    left: 220px;
+    font-size:40px;
+}
+.list{
+    font-family: 'Segoe UI', sans-serif;
+    font-size:30px;
+    margin: 10px 50px; 
+    letter-spacing: 2px; 
+    line-height: 58px;
+    position: relative;
+    top: 2px;   
+    left: 40px;
+    font-weight: 500; 
+}

@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, #e6e9f0 0%, #d5d9de 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+.hero{
+    padding: 5rem 14rem;
+    width: 91px;
+    height: 362px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 196px;
+    left: 556px;
+    background-color:darkgrey;
+    border-radius: 15px;
+}
+.hero span, p{
+    font-family: 'Dubai';
+    font-size: 2rem;
+    position: relative;
+    top: 66px;
+    left: -72px;
+}
+.hero p{
+    margin-top: -1.5rem;
+}
+.hero b{
+    filter: drop-shadow(2px 2px 18px black);
+    color: #2c2c2c;
+}
+.hero.na{
+    position: relative;
+    left: 10px;
+    top: 10px;
+
+}
+.form {
+    position: relative;
+    top: -27px;
+    left: -273px;
+    height: 447px;
+    width: 1073px;
+}
+/* .head{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 37px;
+    font-family: 'oxanium' ;
+} */
+.ivr{
+    font-size: 6pt;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+    padding: 33px;
+}
+.box{
+    position: relative;
+    top: 20px;
+    left: 115px;
+    background-color: ghostwhite;
+    border: none;
+    display: block;
+    font: 400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    height: 37px;
+    line-height: 24px;
+    margin: 0;
+    min-width: 0%;
+    outline: none;
+    padding: 1px;
+    z-index: 0;
+    width: 340px;
+    border-radius: 5px;
+    
+
+}
+.box1{
+    position: relative;
+    top: -7px;
+    left: 115px;
+    background-color: ghostwhite;
+    border: none;
+    display: block;
+    font: 400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    height: 91px;
+    line-height: 24px;
+    margin: 0;
+    min-width: 0%;
+    outline: none;
+    padding: 1px;
+    z-index: 0;
+    width: 340px;
+    border-radius: 5px;
+}
+::placeholder{
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+
+}
+.btn{
+    position: relative;
+    top: 25px;
+    left: 153px;
+    height: 38px;
+    width: 89px;
+    background-color: darkblue;
+    border: 0px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color: ghostwhite;
+    font-weight: bold;
+}
+.back{
+    position: relative;
+    top: 25px;
+    left: 245px;
+
+
+    height: 38px;
+    width: 89px;
+    background-color: darkblue;
+    border: 0px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color: ghostwhite;
+    font-weight: bold;
+
+
+}
+.cont{
+    position: relative;
+    top: -222px;
+    left: -205px;
+}
